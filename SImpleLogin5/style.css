@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    display: flex;
+    height: 100vh;
+    place-items: center;
+    background: #be2edd;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.main_div {
+    width: 365px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    height: 400px;
+}
+
+.main_div .title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main_div .social_icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social_icons a {
+    display: block;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+.social_icons a span {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.social_icons a:first-child {
+    margin-right: 5px;
+    background: #4267b2;
+}
+
+.social_icons a:first-child:hover {
+    background: #375695;
+}
+
+.social_icons a:last-child {
+    margin-right: 5px;
+    background: #1da1f2;
+}
+
+.social_icons a:last-child:hover {
+    background: #0d8bd9;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input[type="text"], 
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+.icon {
+    position: absolute;
+    margin-top: -25px;
+    left: 50px;
+    transform: translateY(-50%);
+    color: gray;
+    float: left;
+}
+
+.option_div {
+    margin-top: 10px;
+}
+
+.check_box{
+    float: left;
+}
+
+.forget_div {
+    float: right;
+}
+
+input[type="submit"] {
+    position: absolute;
+    margin-top: 40px;
+    width: 84%;
+    left: 8%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #be2edd;
+    color: #fff;
+    font-weight: bold;
+}
+
+.signup {
+    margin-top: 100px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #be2edd;
+}
+
+

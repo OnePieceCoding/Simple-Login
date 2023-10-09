@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0bedb5;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 5px;
+    margin-left: 13px;
+    margin-top: 15px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button[type="submit1"] {
+    width: 43%;
+    margin-top: 20px;
+    margin-left: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #08b214;
+    color: rgb(255, 255, 255);
+}
+
+button[type="submit2"] {
+    width: 43%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00e1ff;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 48px;
+    font-size: small;
+    color: rgb(253, 254, 255);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(249, 249, 35);
+}
+
+a:hover {
+    text-decoration: underline;
+}
